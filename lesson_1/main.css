@@ -1,0 +1,50 @@
+body{
+    background: #f5f2f1;
+}
+
+img{
+    width: 100px;
+    height: 150px;
+}
+
+.title{
+    width: 100%;
+    color: crimson;
+    text-align: center;
+    font-weight: 900;
+    font-family: cursive;
+    font-style: italic
+}
+
+.simpsons-box{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.simpson-box{
+    border: 1px solid crimson;
+    margin: 2px;
+    padding: 2px;
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    font-style: italic
+}
+
+.simpson-box:hover{
+    background: aqua;
+}
+
+.simpsons-box-info{
+    width: 100%;
+    border: 1px solid crimson;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+p{
+    border-bottom: 1px dotted silver;
+}
