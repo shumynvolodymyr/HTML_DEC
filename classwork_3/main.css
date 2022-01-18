@@ -22,6 +22,13 @@
     width: 100%;
 }
 
+.w50px{
+    width: 50px;
+}
+.w100px{
+    width: 100px;
+}
+
 .h50px {
     height: 50px;
 }
@@ -46,6 +53,9 @@
     background: #d9d9d9;
 }
 
+.bg-white {
+    background: white;
+}
 .bg-blue {
     background: #246abb;
 }
@@ -104,11 +114,6 @@
     align-items: center;
 }
 
-.content-between {
-    display: flex;
-    justify-content: space-between;
-}
-
 .wrap {
     display: flex;
     flex-wrap: wrap;
@@ -123,4 +128,13 @@
     padding: 10px;
     border: 1px solid black;
     background: #f3f3f3;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.pos-rel{
+    position: relative;
+    top: 15px;
 }
