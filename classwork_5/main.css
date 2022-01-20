@@ -1,0 +1,253 @@
+.frame {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: rgba(252, 252, 252, 0.85);
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gap-10px {
+    gap: 10px;
+}
+
+.one {
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.logo, .cart {
+    width: 18.8%;
+    height: 80px;
+    background: #e8e8e8;
+}
+
+.two {
+    width: 20%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.three-seven {
+    width: 80%;
+}
+
+.two-box {
+    width: 99%;
+    height: 44px;
+    background: #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.three {
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.three-box {
+    width: 99.9%;
+    height: 374px;
+    background: #e8e8e8;
+}
+
+.four {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.four-box {
+    width: 25%;
+    height: 124px;
+    background: #e8e8e8;
+}
+
+.five {
+    width: 75%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.five-box {
+    width: 49%;
+    height: 120px;
+    background: #e8e8e8;
+}
+
+.five-small-box {
+    width: 30%;
+    height: 50px;
+    background: #e8e8e8;
+}
+
+.six {
+    width: 25%;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.six-box {
+    width: 99.9%;
+    height: 80px;
+    background: #e8e8e8;
+    margin-bottom: 10px;
+}
+
+.seven {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.seven-box {
+    width: 99%;
+    height: 50px;
+    background: #e8e8e8;
+}
+
+.seven-small-box {
+    width: 40%;
+    height: 50px;
+    background: #e8e8e8;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    .two {
+        display: none;
+    }
+
+    .three-seven {
+        width: 100%;
+    }
+
+    .four {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .four-box {
+        width: 49%;
+        height: 150px;
+    }
+
+    .five-six {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five {
+        width: 100%;
+    }
+
+    .six {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    }
+
+    .row {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .increment {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .one {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .cart {
+        width: 100%;
+    }
+
+    .two {
+        display: none;
+    }
+
+    .three-seven {
+        width: 100%;
+    }
+
+    .four {
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .four-box {
+        width: 48.5%;
+        height: 150px;
+    }
+
+
+    .five-six {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .five {
+        width: 100%;
+    }
+
+    .five-box {
+        width: 100%;
+    }
+
+    .six {
+        width: 100%;
+    }
+
+    .increment {
+        height: 300px;
+    }
+
+}
