@@ -1,0 +1,186 @@
+.frame {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    background: #f3f3f3;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 450px;
+}
+
+.container-left {
+    width: 75%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 10px;
+}
+
+.container-right {
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+.bg-silver {
+    background: #d9d9d9;
+}
+
+.mrg-bt-10px {
+    margin-bottom: 10px;
+}
+
+.mrg-t-10px {
+    margin-top: 10px;
+}
+
+.mr-r-10px {
+    margin-right: 10px;
+}
+
+.brd-r-10 {
+    border-radius: 10px;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    gap: 10px
+}
+
+@media screen  and (max-width: 912px) {
+    .header {
+        margin: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+
+    .container-left {
+        width: 100%;
+        height: 300px;
+        margin: 10px 0;
+    }
+
+    .container-right {
+        width: 100%;
+        height: 150px;
+    }
+}
+
+.b-f-box{
+    width: 100%;
+}
+
+.a-box {
+    width: 100%;
+    height: 150px;
+}
+
+.b-e-box {
+    width: 75%;
+    margin-right: 10px;
+}
+
+.b-box {
+    width: 100%;
+    height: 150px;
+}
+
+.c-e-box {
+    width: 100%;
+}
+
+.c-box, .d-box, .e-box{
+    width: 33.333%;
+    height: 150px;
+}
+
+.f-box{
+    width: 25%;
+    height: 310px;
+}
+
+@media  screen and (max-width: 912px){
+    .b-e-box{
+        width: 100%;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .b-f-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .f-box{
+        width: 100%;
+        margin-top: 10px;
+        height: 100px;
+    }
+}
+
+.b-h-box{
+    width: 100%;
+    display: flex;
+}
+
+.b-g-box{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b-g{
+    width: 33.333%;
+    height: 150px;
+}
+
+.h-box{
+    width: 25%;
+    height: 310px;
+}
+
+.inline-box{
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+
+@media screen and (max-width:912px) {
+    .b-h-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .b-g-box{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .h-box{
+        width: 100%;
+    }
+}
