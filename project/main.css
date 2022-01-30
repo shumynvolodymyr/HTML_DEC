@@ -925,7 +925,7 @@ footer {
     height: 24px;
     font-size: 16px;
     line-height: 24px;
-    color: #F9C600;
+    color: var(--yellow-color);
     margin-bottom: 13px;
 }
 
